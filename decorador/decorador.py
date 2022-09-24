@@ -1,4 +1,7 @@
-#from state_machines import state_machines
+""" import sys
+sys.path.insert(0,  "state_machines")
+
+from state_machines.state_machines import state_machine """
 
 """ def decorator(function):
     def intToBinary(intput, state): """
@@ -14,5 +17,4 @@ def intToBinary(input):
     binary.reverse()
     return binary
 
-print(intToBinary(22))
-print(bin(22))
+print(intToBinary(0b0011))
